@@ -5,6 +5,8 @@ Sleep, 100
 If ErrorLevel = 0	; if second ctrl+x detected
 	If TextSelected
 		Run https://www.google.com/search?q=%Clipboard%
+	Else
+		Run https://www.google.com
 Return
 
 OnClipboardChange:
